@@ -1,1 +1,23 @@
-
+config:
+  warn_error: true
+  log_format: true
+  debug: true
+  
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: axvecmf-zr08189
+      user: <username>
+      password: <password>
+      role: ACCOUNTADMIN
+      database: hypedocs_co
+      warehouse: COMPUTE_WH
+      schema: DBT_MIKIYAMFOS
+      client_session_keep_alive: False
+      
+      
+      
+      
+  
