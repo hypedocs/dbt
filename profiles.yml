@@ -8,7 +8,7 @@ default:
   outputs:
     dev:
       type: snowflake
-      account: axvecmf-zr08189
+      account: <snowflake_account_number>
       user: <username>
       password: <password>
       role: ACCOUNTADMIN
